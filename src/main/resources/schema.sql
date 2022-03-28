@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Coin;  
+CREATE TABLE Coin (  
+Currency CHAR(10)  PRIMARY KEY,  
+CurrencyTW CHAR(10) NOT NULL,  
+UpdateDateTime DATETIME NOT NULL,
+Rate DECIMAL(10,4)
+);  
